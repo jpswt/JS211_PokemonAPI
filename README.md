@@ -12,4 +12,4 @@ In addition to character creation and stats, a scoreboard was created that also 
 
 A battle UI control was given to call the start of the battle.  The battle is determined by the "base stat" of each Pokemon character respectively.  The higher the base stat would be the winner.  The result of the match is displayed on the scoreboard.  In the event of a tie, the scoreboard shows the match as a draw.
 
-The reset UI control removes all images and information from the screen, resets scoreboard to default message after battle, empites push data arrays, re-enables buttons.
+The reset UI control removes all images and information from the page, resets scoreboard to default message after battle, empites push data arrays, re-enables buttons.
