@@ -2,7 +2,7 @@
 
 THe purpose of this assignment was to build an app using two API fetch calls and include some interactivity with the information.  I chose to build a Pokemon Battle simulator using the Pokemon API.  
 
-Created two random Pokemon Characters by using fetch calls to the Pokemon API.  For each of the characters, I used the data fetched to use the image sprites, as well as some of the Pokemon stats information for Name, HP, weight and Type of Attack.  The character image and stats are then appended to the DOM and UI controls are selected.  
+Created two random Pokemon Characters by using fetch calls to the Pokemon API.  For each of the characters, I used the data fetched to use the image sprites, as well as some of the Pokemon stats information for Name, HP, Weight and Type of Attack.  The character image and stats are then appended to the DOM and UI controls are selected.  
 
 The UI controls where designed in which the user must select the first Pokemon before the second.  Mainly to keep the scoreboard from showing incorrect data.  Design of scoreboard could have been better, but since it wasn't a big part of assignment I worked around it.  Once a pokemon character was selected, the button was disabled to prevent user from selecting multiple Pokemon to the screen.  This ensures a 1 vs 1 match up for the battle simulation.
 
