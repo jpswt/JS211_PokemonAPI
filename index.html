@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the PokeDome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-column pokemonOne">
+            <ul class="pokemon-stats stats-1" id="pokemon-one"></ul>
+        </div>
+        <div class="grid-column scoreboard">
+            <h1><span id="scoreboard-one">Welcome</span> <br>
+                <span id="scoreboard-two">to the</span><br>
+                <span id="scoreboard-three">PokeDome</span>
+            </h1>
+        </div>
+        <div class="grid-column pokemonTwo">
+            <ul class="pokemon-stats stats-2" id="pokemon-two"></ul>
+        </div>
+        <div class="grid-column">
+            <div class="character pokeimg1" id="character-one-img"></div>
+        </div>
+        <div class="grid-column">
+            <div class="buttons button-options">
+                <button id="choose-pokemon1" class="choosePokemonOne">Pokemon One</button>
+                <button id="choose-pokemon2" class="choosePokemonTwo">Pokemon Two</button>
+                <button id="battle" class="battle">Battle</button>
+                <button id="reset" class="reset">Reset</button>
+            </div>
+        </div>
+        <div class="grid-column">
+            <div class="character pokeimg2" id="character-two-img"></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
